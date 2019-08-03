@@ -59,6 +59,17 @@ function test1(text) {
 
 // 使用函式
 test1("265456");
+test1("哈哈哈哈哈哈哈哈");
 
-test1("哈哈哈哈哈哈哈哈"); 
+// 陣列 array
+var number1 = 10;
+var number2 = 20;
+var number3 = 30;
+
+//定義陣列
+var numbers = [10, 20, 30];
+// var names = ["JOY", "Saturn", "Tutu"];
+
+// 取得陣列資料 - **陣列資料從 0 開始
+document.getElementById("box6").innerHTML = numbers[2];
 
