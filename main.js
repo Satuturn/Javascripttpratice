@@ -47,6 +47,18 @@ else {
     box4.innerHTML = "不及格 當掉";
 }
 
+// 函式、方法 - PUG、Sass Mixin
 
+// 匿名函式
+// function (){}
 
+// 定義：函式 函式名稱(參數) { 內容 }
+function test1(text) {
+    document.getElementById("box5").innerHTML = text;
+}
+
+// 使用函式
+test1("265456");
+
+test1("哈哈哈哈哈哈哈哈"); 
 
