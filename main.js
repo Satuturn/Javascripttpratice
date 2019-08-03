@@ -28,4 +28,25 @@ f = d++;    // 先給值再遞增
 f = ++e;    // 先遞增再給值
 document.getElementById("box2").innerHTML = f;
 
+var g =10;
+g *= 5;   //適用+-*/
+document.getElementById("box3").innerHTML = g;
+
+// 判斷式 
+var score = 49;
+var box4 = document.getElementById("box4");
+
+// if 可以搭配一個else 與多個 else if
+if (score >= 60) {
+    box4.innerHTML = "及格";
+}
+else if (score >=50 ) {
+    box4.innerHTML = "補考";
+}
+else {
+    box4.innerHTML = "不及格 當掉";
+}
+
+
+
 
